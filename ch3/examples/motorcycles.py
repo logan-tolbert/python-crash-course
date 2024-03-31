@@ -51,5 +51,14 @@ motorcycles.remove(too_expensive)
 print(motorcycles)
 print(f"\nA {too_expensive.title()} is too expensive for me.")
 
+# Avoiding errors when indexing
+motorcycles = ["honda", "yamaha", "suzuki",]
 
+# will cause error
+# print(motorcycles[3])
 
+print(motorcycles[-1])
+
+# will cause error
+# motorcycles = []
+# print(motorcycles[-1])
